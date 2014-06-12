@@ -40,12 +40,10 @@ Introduces parity error randomly in the packets
 Step 4- Coverage Information 
 This must be launched in puresim mode 
 Follow Step 1 and compile for puresim mode
-The type-
+Then type-
 vopt top -o top_coverage +cover
 
 Then use one of the following-
-
-To run a specific test case, copy one of the following commands
 
 	vsim -c -coverage -do "run -all" top xbar_hvl TbxSvManager +TESTCASE=no_contention +DEBUG=0 +ERROR=1
 	vsim -c -coverage -do "run -all" top xbar_hvl TbxSvManager +TESTCASE=half_contention +DEBUG=0 +ERROR=0
