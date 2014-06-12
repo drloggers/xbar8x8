@@ -8,7 +8,7 @@ make puresim
 
 OR
 To compile/synthesize for veloce-
-make velcoe
+make veloce
 
 Step 2-
 To run all test cases after compile
